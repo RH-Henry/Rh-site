@@ -1,0 +1,288 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    overflow-x:hidden;
+    background-color: #000000;
+    color: aliceblue;
+    z-index: -900;
+    margin-top: 0;
+    font-size: 1.4vmax;
+    height: 100%;
+
+}
+
+h3{
+    font-size: 3vmax;
+}
+
+.ans{
+    margin-left: 12.5vw;
+    width: 75vw;
+    outline:solid rgb(168, 223, 255);
+    outline-offset: 3vmin;
+    border-radius: 0.1vmin;
+}
+
+.end{
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+}
+
+.pagelink{
+    display: inline;
+    list-style: none;
+    color: aqua;
+    cursor:pointer;
+    text-decoration-line: underline;
+    user-select: contain;
+}
+
+.pagelink:visited{
+    color:aquamarine
+}
+
+.pagelink:hover{
+    color: red;
+}
+
+button{
+    user-select: none;
+}
+
+h1{
+    position:relative;
+    text-align: left;
+    margin-left: 3vmin;
+    font-size: 10vmin;
+}
+
+h2{
+    margin-right: 3vmin;
+    position: relative;
+    font-size: 10vmin;
+    text-align: right;
+}
+
+.bande{
+    z-index: 900;
+    user-select: none;
+    transition: 1s;
+    top: 0;
+    left: 0;
+    position:sticky;
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 101vw;
+    height: 15vmin;
+    margin-left: -1vw;
+    border-top: 0;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.bande button{
+    box-sizing: border-box;
+    display:inline;
+    margin-top: 1vh;
+    border-radius: 2vh;
+    height:10vmin;
+    align-self: center;
+    width:20vw;
+    font-size:3vw;
+    background-color:rgba(31, 31, 31, 0.836);
+    outline:solid aqua;
+    color:aqua;
+}
+
+.bande .current{
+    transition:0.7s;
+    background-color: black;
+    color:white;
+
+    outline: solid;
+    outline-width: 0.4vmin;
+}
+
+.bande .home:hover{
+    transition: 0.3s;
+    background-color: rgb(101, 112, 255);
+    color:white;
+}
+
+.bande .aboutus:hover{
+    transition: 0.3s;
+    background-color: rgb(255, 180, 82);
+    color:white;
+}
+
+.bande .contact:hover{
+    transition: 0.3s;
+    background-color: rgb(0, 255, 157);
+    color:white;
+   
+}
+
+.bande .games:hover{
+    transition: 0.3s;
+    background-color: rgb(255, 103, 217);
+    color:white;
+}
+
+.otherGames{
+    display: none;
+}
+
+.bandemodif{
+    transition: 1s;
+    background-color: rgb(116, 90, 179);
+    height: 20vh;
+    animation: none;
+}
+
+.bandemodif > .otherGames{
+    transition: 1s;
+    height:10vh;
+    line-height: 5vh;
+    right:9.5vw;
+    display: block;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    border-radius: 2vh;
+    width:20vw;
+    background: #000000;
+    border: 1vh;
+    outline: solid red;
+    text-align:left;
+    font-size: 2.4vw;
+}
+
+
+.bande button:hover:active{
+    transition: 0.3s;
+    background-color:black;
+    color: white;
+}
+
+.bande li:hover{
+    color: blueviolet;
+}
+.title{
+    transition: 1s;
+    user-select: none;
+    display:grid;
+    position:static;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: -1vw;
+    height:93vh;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    width: 101vw;
+    color:white;
+    position: static;
+    font-size: 10vw;
+    
+}
+
+.title::after{
+    transition: 1s;
+    color: rgb(222, 219, 231);
+    text-shadow: 0 1em 0.4em white,0 0 0.2em white;
+    content: '';
+    
+    animation: changecontent  1.5s linear both, glitch 2s linear infinite;
+}
+.titlemodif{
+    transition: 1s;
+    background-color: rgba(93, 66, 156, 0.897);
+    height: 100vh;
+}
+
+@keyframes changecontent{
+    from{
+        content: "RP\\GXPRfI9_";
+    }
+    7%{
+        content: "R_\\GXPRfI9_";
+    }
+    15%{
+        content: "RH\\GXPRfI9_";
+    }
+    17%{
+        content: "RH_GXPRfI9_";
+    }
+    20%{
+        content: "RH_1XPRfI9_";
+    }
+    25%{
+        content: "RH_DXPRfI9_";
+    }
+    27%{
+        content: "RH DXPRfI9_";
+    }
+    29%{
+        content: "RH DzPRfI9_";
+    }
+    30%{
+        content: "RH DyPRfI9_";
+    }
+    35%{
+        content: "RM DynRfI9_";
+    }
+    40%{
+        content: "RH DynAafI9_";
+    }
+    43%{
+        content: "";
+    }
+    48%{
+        content: "RH DynafI9_";
+    }
+    53%{
+        content: "RH DynamI9_";
+    }
+    60%{
+        content: "RH Dynami9_";
+    }
+    65%{
+        content: "RH Dynamic_";
+    }
+    70%{
+        content: "RH Dynamic0";
+    }
+    75%{
+        content: "RH Dyna_ics";
+    }
+    80%{
+        content: "RH dYnamics";
+    }
+    85%{
+        content: "RH dNamics";
+    }
+    90%{
+        content: "RH D4amics";
+    }
+    90%{
+        content: "RH Dyn4mics";
+    }
+    to{
+        content: "RH Dynamics";
+    }
+
+}
+
+@keyframes glitch{
+    from{
+        color: rgb(222, 219, 231);
+        text-shadow: 0 7vh 0.4em white,0 0 4vmax white;
+    }
+    80%{
+        color: rgb(0, 168, 0);
+        text-shadow: 0 7vh 3vmax rgb(61, 80, 61),0 0 2vmax rgb(0, 255, 0) ;
+    }
+    100%{
+        color: rgb(222, 219, 231);
+        text-shadow: 0 7vh 0.4em white,0 0 4vmax white;
+    }
+}
