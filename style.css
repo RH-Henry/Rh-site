@@ -10,6 +10,25 @@ body{
 
 }
 
+.pdp{
+    position: relative;
+    top: 2vmin;
+    height: 10vmin;
+    border-radius: 4.5vmin;
+    outline: red solid;
+    outline-width: 0.7vmin;
+}
+
+#remip{
+    outline: red solid;
+    outline-width: 0.7vmin;
+}
+
+#henryp{
+    outline: greenyellow solid;
+    outline-width: 0.7vmin;
+}
+
 h3{
     font-family:'Times New Roman', Times, serif;
     font-size: 3vmax;
@@ -82,6 +101,7 @@ h2{
     
 }
 .bande button{
+    text-transform: capitalize;
     box-sizing: border-box;
     display:inline;
     margin-top: 1vh;
