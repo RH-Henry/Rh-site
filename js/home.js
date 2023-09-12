@@ -8,9 +8,9 @@ var nums = '01$23456789$sudo$sudoАА́А̀А̂А̄ӒБВГҐДЂЃЕЕ́ЀЕ̄�
 var alphabet=katakana+latin+nums;
 
 if (window.innerHeight>window.innerWidth){
-    var fontSize=window.innerWidth/40;
-}else{
     var fontSize=window.innerHeight/40;
+}else{
+    var fontSize=window.innerWidth/40;
 }
 
 
