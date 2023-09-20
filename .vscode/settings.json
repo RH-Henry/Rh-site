@@ -1,6 +1,14 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "keyboard_syscalls.h": "c"
-    }
+        "keyboard_syscalls.h": "c",
+        "keyboard.h": "c",
+        "display.h": "c",
+        "stdio.h": "c",
+        "disp_tools.hpp": "c",
+        "fxcg_display.h": "c",
+        "keyboard.hpp": "c"
+    },
+    "C_Cpp.default.compilerPath": "c:\\Users\\henry_fnk5\\Desktop\\PrizmSDK-0.3\\projects\\example\\make.bat",
+    "C_Cpp.errorSquiggles": "enabled"
 }
